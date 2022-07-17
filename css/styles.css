@@ -1,0 +1,191 @@
+:root {
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-font: 'Roboto',
+        sans-serif;
+        --accent-color: #2196F3;
+        --primary-color: #212121;
+        --border-top-color: #FFFFFF;
+        --contact-text-color: #757575;
+        --portfolio-border-color: #EEEEEE;
+        --logo-color: #000000;
+        --section-color: #E5E5E5;
+        --section-picture-color: #F5F4FA;
+}
+body {
+font-family: var(--primary-font);
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.03em;
+background-color: var(--border-top-color);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* header */
+.logo {
+    font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;    
+        color: var(--accent-color);
+}
+.logo-studio {
+    color: var(--logo-color);
+}
+.logo-footer {
+    color: var(--border-top-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.link-menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+.link-menu:hover {
+    color: var(--accent-color);
+}
+.current {
+color: var(--accent-color);
+}
+.contacts {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--contact-text-color);
+}
+.contacts:hover {
+    color: var(--accent-color);
+}
+ /* hero */
+ .hero {
+    background-color: #2F303A;
+ }
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+          color: var(--border-top-color);  
+}
+.btn {
+        cursor: pointer;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1,85;
+            letter-spacing: 0.06em;
+            background-color: var(--accent-color);
+            color: var(--border-top-color);
+}
+.btn:hover,
+.btn:focus {
+    color: var(--border-top-color);
+background-color: var(--accent-color);
+}
+.menu {
+    background-color: var(--section-color);
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.text {
+    line-height: 1.71;
+    color: var(--contact-text-color);
+}
+.list-picture {
+    background-color: var(--section-color);
+}
+.title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        color: var(--primary-color);
+}
+
+/* employees */
+.list-avatar {
+    background-color: var(--section-picture-color);
+}
+.subject {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        color: var(--primary-color);
+}
+.subject-direction {
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--contact-text-color);
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.link-address {
+    font-style: normal;
+        line-height: 1.71;
+         color: var(--border-top-color);
+}
+.link-address:hover {
+    color: var(--accent-color);
+}
+.contacts-footer {
+        line-height: 1.71;
+         color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer:hover {
+    color: var(--accent-color);
+}
+/* portfolio */
+.btn-portfolio {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        color: var(--primary-color);
+        cursor: pointer;
+        background-color: var(--section-picture-color);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: var(--border-top-color);
+    background-color: var(--accent-color);
+}
+.caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+}
+.desc {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--contact-text-color);
+}
+
+
+
+
+
