@@ -218,9 +218,6 @@ button {
     padding-bottom: 94px;
 }
 
-.subtitle-text {
-    margin-top: 94px;
-}
 
 
 .list-subtitle {
@@ -254,16 +251,20 @@ button {
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 
 /*============================ employees ======================================*/
 .list-picture {
-    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.title-name {
+    margin-bottom: 50px;
 }
 
 .list-avatar {
     background-color: var(--section-picture-color);
+    padding-top: 94px;
 }
 
 .subject {
